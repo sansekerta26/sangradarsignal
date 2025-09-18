@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 # Token bot Telegram dan chat id group
 BOT_TOKEN = "8208178189:AAG8HYOLEhTzmmr2-Pzwyi0wxm77s1ErCEQ"
-CHAT_ID = "859152762"
+CHAT_ID = "-1002716271446"
 
 # Endpoint webhook dari TradingView
 @app.route('/webhook', methods=['POST'])
@@ -38,3 +38,4 @@ def home():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=10000)
+
