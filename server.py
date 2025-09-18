@@ -4,8 +4,8 @@ import os
 from datetime import datetime
 
 # === Konfigurasi Bot Telegram ===
-BOT_TOKEN = 8208178189:AAG8HYOLEhTzmmr2-Pzwyi0wxm77s1ErCEQ
-CHAT_ID = 859152762
+BOT_TOKEN = "8208178189:AAG8HYOLEhTzmmr2-Pzwyi0wxm77s1ErCEQ"
+CHAT_ID = "859152762"
 bot = telebot.TeleBot(BOT_TOKEN)
 
 # === Setup Flask ===
@@ -51,3 +51,4 @@ def webhook():
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
     app.run(host="0.0.0.0", port=port)
+
